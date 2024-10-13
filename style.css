@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 100px auto;
+}
+/*.flex-box{*/
+/*    display: flex;*/
+/*    gap: 10px;*/
+/*    justify-content: space-between;*/
+/*}*/
+/*.card{*/
+
+/*    height: 100px;*/
+/*    background-color: red;*/
+/*}*/
+/*.display-grid{*/
+/*    margin-top: 100px;*/
+/*    display: grid;*/
+/*    grid-gap: 10px;*/
+/*    grid-template-columns: 2fr 1fr 2fr ;*/
+/*}*/
+
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-gap: 10px ;
+}
+img{
+    width: 50%;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
